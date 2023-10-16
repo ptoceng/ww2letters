@@ -1,0 +1,17 @@
+.imageslider {
+
+    &__container{
+        margin-left:1.6rem;
+        margin-right:1.6rem;
+    }
+  &__carousel {
+    height: 32rem;
+    width: 25rem;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+  
+  }
+}
