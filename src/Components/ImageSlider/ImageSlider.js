@@ -10,7 +10,11 @@ import letter1 from "../../assets/images/ww2letter.jpeg";
 import letter2 from "../../assets/images/ww2letter2.jpeg";
 import letter3 from "../../assets/images/ww2letter3.jpeg";
 
-function ImageSlider() {
+function ImageSlider({ images, envelope }) {
+
+  //Create a new array that includes the envelope image path and the rest of the letter images using the spread operator
+  const letterImages = [envelope, ...images];
+
   return (
     <div className="imageslider__container">
       <Swiper
@@ -21,15 +25,19 @@ function ImageSlider() {
         sliderPerView={1}
         className="imageslider__carousel"
       >
-        <SwiperSlide className="imageslider__element">
-          <img className="imageslider__image" src={envlope} alt="ww2 letter" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="imageslider__image" src={letter2} alt="ww2 letter" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="imageslider__image" src={letter3} alt="ww2 letter" />
-        </SwiperSlide>
+
+        {/* For each image path, return a slider with the image from the public folder */}
+        {letterImages.map((image, index) => {
+          return (
+            <SwiperSlide key={index} className="imageslider__element">
+              <img
+                className="imageslider__image"
+                src={image}
+                alt="ww2 letter"
+              />
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );

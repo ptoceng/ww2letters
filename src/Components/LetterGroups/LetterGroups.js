@@ -14,7 +14,7 @@ function LetterGroups() {
       <section className="lettergroup">
         <h2 className="lettergroup__title"> The Letters</h2>
         <div className="lettergroup__cards">
-          <Link to={"/letters"}>
+          <Link to={"/letters/fort-lewis"}>
             <div className="lettergroup__card">
               <img
                 className="lettergroup__image"
@@ -24,30 +24,30 @@ function LetterGroups() {
               <span className="lettergroup__overlay-text">Fort Lewis</span>
             </div>
           </Link>
-          <Link to={"/letters"}>
+          <Link to={"/letters/france"}>
             <div className="lettergroup__card">
               <img className="lettergroup__image" src={france} alt="france" />
               <span className="lettergroup__overlay-text">France</span>
             </div>
           </Link>
-          <Link to={"/letters"}>
+          <Link to={"/letters/germany"}>
             <div className="lettergroup__card">
               <img className="lettergroup__image" src={germany} alt="germany" />
               <span className="lettergroup__overlay-text">Germany</span>
             </div>
           </Link>
-          <Link to={"/letters"}>
+          <Link to={"/letters/austria"}>
             <div className="lettergroup__card">
               <img className="lettergroup__image" src={austria} alt="Austria" />
               <span className="lettergroup__overlay-text">Austria</span>
             </div>
           </Link>
-          <Link to={"/letters"}>
+          <Link to={"/letters/postwar"}>
             <div className="lettergroup__card">
               <img
                 className="lettergroup__image"
                 src={vedaynyc}
-                alt="Austria"
+                alt="postwarletters"
               />
               <span className="lettergroup__overlay-text">After the War</span>
             </div>
