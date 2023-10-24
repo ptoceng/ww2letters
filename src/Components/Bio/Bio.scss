@@ -39,8 +39,9 @@
   }
 
   &__headshot {
-    width: 200px;
-    height: 200px;
+    width: 45vw;
+    height: 45vh;
+    margin-left:11rem;
     margin-bottom: 1.6rem;
     display: none;
 
@@ -52,8 +53,8 @@
     }
 
     @include desktop {
-      height: 55rem;
-      width: 380rem;
+      height: 45rem;
+      width: 38rem;
       margin-top: 3.6rem;
      
      
