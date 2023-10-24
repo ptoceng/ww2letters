@@ -1,3 +1,9 @@
+@use "../../styles/resets";
+@use "../../styles/responsive" as *;
+@use "../../styles/variables" as *;
+
+
+
 .imageslider {
 
     &__container{
@@ -7,6 +13,16 @@
   &__carousel {
     height: 32rem;
     width: 25rem;
+
+    @include tablet{
+      height: 50rem;
+      width: 45rem;
+    }
+
+    @include desktop{
+      height: 80vh;
+      width: 75vw;
+    }
   }
 
   &__image {

@@ -1,0 +1,22 @@
+@use "../../styles/resets";
+@use "../../styles/responsive" as *;
+@use "../../styles/variables" as *;
+
+.letters__card {
+  &-title {
+  }
+
+  &-date {
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    padding-top: 2.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  &-text {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+}
+
+
