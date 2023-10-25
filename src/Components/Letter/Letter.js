@@ -10,7 +10,7 @@ function Letter({ letter }) {
         <h3 className="letters__card-title"></h3>
         <h4 className="letters__card-date">{letter.date}</h4>
         <ImageSlider className="imageslider" images={letter.images} envelope={letter.envelope} />
-        <p className="letters__card-text">{letter.text}</p>
+        <p className="letters__card-text" dangerouslySetInnerHTML={{__html: letter.text}}></p>
       </div>
     </>
   );

@@ -2,21 +2,45 @@
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
 
-.letters__card {
-  &-title {
-  }
 
+
+.letters__card {
   &-date {
     margin-right: 1.6rem;
     margin-left: 1.6rem;
-    padding-top: 2.4rem;
     padding-bottom: 1.6rem;
+    margin-bottom: 0;
+
+    @include tablet {
+      font-size: 3.6rem;
+      line-height: 4.4rem;
+      font-weight: 700;
+      padding-bottom: 3.6rem;
+      margin-left: 3.6rem;
+      margin-right: 3.6rem;
+
+      @include desktop {
+        margin-left: 6.3rem;
+        margin-right: 6.3rem;
+      }
+
+    }
   }
 
   &-text {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+
+    @include tablet {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      margin-left: 3.6rem;
+      margin-right: 3.6rem;
+    }
+
+    @include desktop{
+      margin-left: 6.3rem;
+      margin-right: 6.3rem;
+    }
   }
 }
-
-

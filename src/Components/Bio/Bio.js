@@ -6,7 +6,7 @@ function Bio() {
       <section className="bio">
         <div className="bio__text__image-div">
           <div className="bio__title-div">
-            <h2 className="bio__title"> Thomas Patrick O'Connor</h2>
+            <h2 className="bio__title"> Sgt. Thomas Patrick O'Connor</h2>
           </div>
           <div>
             <img className = "bio__headshot--mobile" src="./images/TPOC.png" />
