@@ -2,8 +2,6 @@
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
 
-
-
 .letters__card {
   &-date {
     margin-right: 1.6rem;
@@ -18,12 +16,17 @@
       padding-bottom: 3.6rem;
       margin-left: 3.6rem;
       margin-right: 3.6rem;
+    }
 
-      @include desktop {
-        margin-left: 6.3rem;
-        margin-right: 6.3rem;
-      }
+    @include desktop {
+      margin-left: 6.3rem;
+      margin-right: 6.3rem;
+    }
+  }
 
+  &--imagetextdiv {
+    @include desktop {
+      display: flex;
     }
   }
 
@@ -38,7 +41,7 @@
       margin-right: 3.6rem;
     }
 
-    @include desktop{
+    @include desktop {
       margin-left: 6.3rem;
       margin-right: 6.3rem;
     }
