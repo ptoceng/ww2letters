@@ -1,10 +1,12 @@
 @use "../../styles/resets";
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
+@use "../../styles/fonts";
 
 .returnhome{
   margin-left:1.6rem;
   margin-right: 1.6rem;
+  font-family: FigTree-Light;
 }
 
 .title{
@@ -17,7 +19,9 @@
   margin-top: 0;
   font-size: 2.4rem;
   line-height: 3.2rem;
+  font-family: FigTree-SemiBold;
 
+  
   @include tablet{
     margin-left: 3.6rem;
     margin-right: 3.6rem;

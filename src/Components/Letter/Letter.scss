@@ -1,6 +1,7 @@
 @use "../../styles/resets";
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
+@use "../../styles/fonts";
 
 .letters__card {
   &-date {
@@ -8,6 +9,7 @@
     margin-left: 1.6rem;
     padding-bottom: 1.6rem;
     margin-bottom: 0;
+    font-family: FigTree-SemiBold;
 
     @include tablet {
       font-size: 3.6rem;
@@ -33,6 +35,7 @@
   &-text {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+    font-family: FigTree-Light;
 
     @include tablet {
       font-size: 1.5rem;
@@ -42,6 +45,8 @@
     }
 
     @include desktop {
+      font-size:2rem;
+      line-height: 2.8rem;
       margin-left: 6.3rem;
       margin-right: 6.3rem;
     }

@@ -1,6 +1,7 @@
 @use "../../styles/resets";
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
+@use "../../styles/fonts";
 
 .header {
   background-color: #000000;
@@ -11,6 +12,7 @@
   &__title {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
+    font-family: FigTree-SemiBold;
 
     @include tablet {
       margin-left: 3.6rem;

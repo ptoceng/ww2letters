@@ -1,6 +1,7 @@
 @use "../../styles/resets";
 @use "../../styles/responsive" as *;
 @use "../../styles/variables" as *;
+@use "../../styles/fonts";
 
 .lettergroup {
   background-color: #f3f5f6;
@@ -8,6 +9,7 @@
   &__title {
     margin-left: 1.6rem;
     margin-top: 0;
+    font-family: FigTree-Medium;
 
     @include tablet {
       margin-left: 3.6rem;
@@ -53,6 +55,11 @@
     left: 25%;
     transform: translate(-50%, -50%);
     color: white;
+
     font-weight: bold;
+    font-family: FigTree-Medium;
+  }
+  @include tablet {
+    font-size: 3.5rem;
   }
 }
