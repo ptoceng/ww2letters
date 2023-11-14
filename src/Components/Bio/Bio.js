@@ -1,4 +1,6 @@
 import "./Bio.scss";
+import { Link } from "react-router-dom";
+
 
 function Bio() {
   return (
@@ -22,7 +24,7 @@ function Bio() {
             </p>
           </div>
           <div className="bio__buttons-container">
-            <button className="bio__buttons-button">Learn More</button>
+           <Link className="link" to={"/about"}> <button className="bio__buttons-button">Learn More</button> </Link>
           </div>
           </div>
           <div>
