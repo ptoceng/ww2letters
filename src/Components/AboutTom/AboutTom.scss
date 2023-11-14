@@ -6,12 +6,31 @@
 .abouttom{
     margin-left:1.6rem;
     margin-right:1.6rem;
+
+    @include tablet{
+        margin-left:3.6rem;
+        margin-right: 3.6rem;
+    }
+
+    @include desktop{
+        margin-left:6.3rem;
+        margin-right: 6.3rem;
+    }
    
 
     &__title{
         margin-top: 2.4rem;
         margin-bottom: 1.6rem;
+        font-size:2.4rem;
         font-family:FigTree-SemiBold;
+
+        @include tablet{
+            margin-top: 4.8rem;
+            margin-bottom: 3.6rem;
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            font-weight: 700;
+        }
     }
 
     &__text{
@@ -19,11 +38,25 @@
         font-size:16px;
         line-height: 1.8rem;
         font-weight: 400;
+
+        @include tablet{
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            font-weight:400;
+
+        }
     }
 
     &__image{
         padding-top:1.6rem;
-        // margin-bottom:1.6rem;
+        height:90vh;
+  
+
+        @include tablet{
+            padding-top:3.6rem;
+            width: 60vw;
+        }
+  
 
         &-div{
             display:flex;
@@ -38,6 +71,10 @@
             font-weight: 700;
             font-family:FigTree-SemiBold;
             text-align: center;
+
+            @include tablet {
+                font-size:1.4rem;
+            }
       
         }
     }
