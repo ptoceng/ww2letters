@@ -8,14 +8,22 @@ import letters from "../../assets/data/mock.json";
 function LettersPage() {
   let { category } = useParams();
 
-  //Check for params
-  //If there are no params, return to homepage
-  //If there are params filter letters to that location
+
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
 
   const filteredLetters = letters.letters.filter(
     (letter) => letter.category === category
   );
-  console.log(filteredLetters);
+
+  const title = capitalizeFirstLetter(category);
+
+
+  //Check for params
+  //If there are no params, return to homepage
+  //If there are params filter letters to that location
+
 
   return (
     <>
@@ -26,7 +34,7 @@ function LettersPage() {
         </Link>
       </div>
       <div className="title__div">
-        <h2 className="title__text">Fort Lewis</h2>
+        <h2 className="title__text">{title}</h2>
       </div>
       <section>
         {filteredLetters.map((letter) => {
