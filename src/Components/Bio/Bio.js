@@ -14,7 +14,7 @@ function Bio() {
           </div>
           <div className="bio__textbutton-div">
             <p className="bio__text">
-              Sargent Thomas Patrick O’Connor server with the 44th Division
+              Sergeant Thomas Patrick O’Connor server with the 44th Division
               during World War Two from 1943 - 1945. This project aims to tell
               the story of his service though the letters he sent home to his
               girlfriend (and later wife) Cathliene O’Connor. The letters span
