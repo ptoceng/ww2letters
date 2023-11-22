@@ -6,41 +6,51 @@ function AboutTom() {
       <section className="abouttom">
         <h2 className="abouttom__title">About SGT. Thomas Patrick O'Connor</h2>
         <div className="abouttom__section-one">
-        <div className="abouttom__image-div">
-          <img
-            className="abouttom__image-friends"
-            src="/images/tomwithfriend.png"
-          ></img>
-          <p className="abouttom__image-text">
-            SGT. O'Connor, pictured left with a friend. aprox 1944
-          </p>
-        </div>
-    <div>
-        <p className="abouttom__text text1">
-          The letters were written by Grandpa during his time in the Army during
-          World War II. The letters were saved by Grandma and kept in a dark
-          colored suitcase for many years. The suitcase was in the basement of
-          the house we grow up in Brooklyn for approximately 40 years from the
-          mid-1950s until 1993. During this time the suitcase was “off-limits”,
-          it was known to contain letters but was never opened. The suitcase was
-          moved to Maine in 1993 and kept in the basement of our house for about
-          28 years until 2021. The suitcase was opened in 2021 and found that it
-          contained many letters (about 60) written by Grandpa to Grandma. {" "}
-        </p>
-        </div>
+          <div className="abouttom__image-div">
+            <img
+              className="abouttom__image-friends"
+              src="/images/tomwithfriend.png"
+            ></img>
+            <p className="abouttom__image-text">
+              SGT. O'Connor, pictured left with a friend. aprox 1944
+            </p>
+          </div>
+          <div>
+            <p className="abouttom__text text1">
+              The contained on this site letters were written by Thomas P. O’Connor during his time in
+              the Army during World War II. The letters were saved by Catherine
+              O’Connor and kept in a dark colored suitcase for many years. The
+              suitcase was in the basement of the house we grow up in Brooklyn
+              for approximately 40 years from the mid-1950s until 1993. During
+              this time the suitcase was “off-limits,” it was known to contain
+              letters but was never opened. The suitcase was moved to Maine in
+              1994 and kept in the basement of our house for about 28 years
+              until 2021. The suitcase was opened in 2021 and found that it
+              contained approximately 60 letters. The letters span the period
+              from 7/5/43 to 8/30/45. During the period when the letters were
+              written, Dad / Grandpa was between 25 and 27 and Mom / Grandma was
+              between 23 and 25 years old.{" "}
+            </p>
+          </div>
         </div>
         <div className="abouttom__section-two">
-        <div className="abouttom__image-div">
-          <img className="abouttom__image-closedcase" src="/images/caseclosed.png"></img>
-          <p className="abouttom__image-text">
-            {" "}
-            The letters as they were stored for 70 years
-          </p>
-        </div>
-        <div className="abouttom__image-div">
-          <img className="abouttom__image-opencase" src="/images/caseopen.png"></img>
-          <p className="abouttom__image-text"> Inside the case</p>
-        </div>
+          <div className="abouttom__image-div">
+            <img
+              className="abouttom__image-closedcase"
+              src="/images/caseclosed.png"
+            ></img>
+            <p className="abouttom__image-text">
+              {" "}
+              The letters as they were stored for 70 years
+            </p>
+          </div>
+          <div className="abouttom__image-div">
+            <img
+              className="abouttom__image-opencase"
+              src="/images/caseopen.png"
+            ></img>
+            <p className="abouttom__image-text"> Inside the case</p>
+          </div>
         </div>
 
         <p className="abouttom__text">
