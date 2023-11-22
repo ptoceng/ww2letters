@@ -4,19 +4,19 @@ function AboutTom() {
   return (
     <>
       <section className="abouttom">
-        <h2 className="abouttom__title">
-          About SGT. Thomas Patrick O'Connor
-          <div className="abouttom__image-div">
-            <img
-              className="abouttom__image"
-              src="/images/tomwithfriend.png"
-            ></img>
-            <p className="abouttom__image-text">
-              SGT. O'Connor, pictured left with a friend. aprox 1944
-            </p>
-          </div>
-        </h2>
-        <p className="abouttom__text">
+        <h2 className="abouttom__title">About SGT. Thomas Patrick O'Connor</h2>
+        <div className="abouttom__section-one">
+        <div className="abouttom__image-div">
+          <img
+            className="abouttom__image-friends"
+            src="/images/tomwithfriend.png"
+          ></img>
+          <p className="abouttom__image-text">
+            SGT. O'Connor, pictured left with a friend. aprox 1944
+          </p>
+        </div>
+    <div>
+        <p className="abouttom__text text1">
           The letters were written by Grandpa during his time in the Army during
           World War II. The letters were saved by Grandma and kept in a dark
           colored suitcase for many years. The suitcase was in the basement of
@@ -25,18 +25,22 @@ function AboutTom() {
           it was known to contain letters but was never opened. The suitcase was
           moved to Maine in 1993 and kept in the basement of our house for about
           28 years until 2021. The suitcase was opened in 2021 and found that it
-          contained many letters (about 60) written by Grandpa to Grandma.{" "}
+          contained many letters (about 60) written by Grandpa to Grandma. {" "}
         </p>
+        </div>
+        </div>
+        <div className="abouttom__section-two">
         <div className="abouttom__image-div">
-          <img className="abouttom__image" src="/images/caseclosed.png"></img>
+          <img className="abouttom__image-closedcase" src="/images/caseclosed.png"></img>
           <p className="abouttom__image-text">
             {" "}
             The letters as they were stored for 70 years
           </p>
         </div>
         <div className="abouttom__image-div">
-          <img className="abouttom__image" src="/images/caseopen.png"></img>
+          <img className="abouttom__image-opencase" src="/images/caseopen.png"></img>
           <p className="abouttom__image-text"> Inside the case</p>
+        </div>
         </div>
 
         <p className="abouttom__text">
@@ -51,10 +55,7 @@ function AboutTom() {
           Division was trained in Fort Lewis, Washington and then went to
           Louisiana and Kansas for predeployment training.{" "}
         </p>
-        <div className="abouttom__image-div">
-          <img className="abouttom__image" src="./images/map.png"></img>
-          <p className="abouttom__image-text"> 44th Infantry Division movements across Europe</p>
-        </div>
+
         <p className="abouttom__text">
           They departed the United States via Boston and arrived by ship in
           France on September 15, 1944. The 44th Division marched across the
@@ -65,6 +66,13 @@ function AboutTom() {
           period. The total reported battle casualties of the 44th Division was
           5,655 which included 1,038 men killed in action.{" "}
         </p>
+        <div className="abouttom__image-div">
+          <img className="abouttom__image" src="./images/map.png"></img>
+          <p className="abouttom__image-text">
+            {" "}
+            44th Infantry Division movements across Europe
+          </p>
+        </div>
         <p className="abouttom__text">
           The Division returned to France and then the United States on the
           Queen Elizabeth cruise ship which entered New York harbor on July
