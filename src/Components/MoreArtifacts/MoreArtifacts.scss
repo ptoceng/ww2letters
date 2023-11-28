@@ -1,0 +1,30 @@
+
+@use "../../styles/resets";
+@use "../../styles/responsive" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/fonts";
+
+.thumbnail-table {
+    width: 100%; // Adjust the width as needed
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid #ddd; // Adds a border to your table cells
+      padding: 8px; // Adjust padding for cells
+      text-align: left; // Aligns text to the left
+    }
+  
+    img {
+      width: 100px; // Adjust the width of your thumbnails
+      height: auto; // Keeps the aspect ratio of your images
+      border-radius: 5px; // Optional: Adds rounded corners to your images
+    }
+  
+    th {
+      background-color: #f2f2f2; // Background color for header
+      color: black; // Text color for header
+    }
+  
+    // Add more custom SCSS styling as needed
+  }
+  

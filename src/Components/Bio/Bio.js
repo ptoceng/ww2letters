@@ -25,12 +25,16 @@ function Bio() {
           <div className="bio__buttons-container">
             <Link className="link" to={"/about"}>
               {" "}
-              <button className="bio__buttons-button">Learn More</button>{" "}
+              <button className="bio__buttons-button">Learn More</button>
+            </Link>
+            <Link className="link" to={"/moreartifacts"}>
+             
+              <button className="bio__buttons-button"> More Artifacts</button>{" "}
             </Link>
           </div>
         </div>
         <div>
-          <img className="bio__headshot" src="/images/TPOC.png" />
+          <img className="bio__headshot" src="/images/TPOC.png"/>
         </div>
       </section>
     </>
