@@ -1,5 +1,6 @@
 {
   "name": "letters",
+  "homepage": "https://www.tocletters.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
