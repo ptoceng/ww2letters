@@ -72,6 +72,10 @@
       font-weight: 400;
       margin-top: 0;
     }
+
+    @include desktop{
+      
+    }
   }
 
   &__image {
@@ -80,7 +84,7 @@
         margin-left: 10px;
       }
       @include desktop{
-        width:33%;
+        width:23%;
         height: 25%;
       }
     }
