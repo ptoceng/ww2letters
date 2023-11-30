@@ -34,7 +34,7 @@ function Bio() {
           </div>
         </div>
         <div>
-          <img className="bio__headshot" src="/images/TPOC.png"/>
+          <img className="bio__headshot" src="/images/TPOC.webp"/>
         </div>
       </section>
     </>
