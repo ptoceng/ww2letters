@@ -1,9 +1,9 @@
 import "./LetterGroups.scss";
-import fortlewis from "../../assets/images/fortlewis.png";
-import france from "../../assets/images/france.jpg";
-import germany from "../../assets/images/germany.jpeg";
-import austria from "../../assets/images/austria.jpeg";
-import vedaynyc from "../../assets/images/vedaynyc.png";
+import fortlewis from "../../assets/images/fortlewis.webp";
+import france from "../../assets/images/france.webp";
+import germany from "../../assets/images/germany.webp";
+import austria from "../../assets/images/austria.webp";
+import vedaynyc from "../../assets/images/vedaynyc.webp";
 import { Link } from "react-router-dom";
 
 

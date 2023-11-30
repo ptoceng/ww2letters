@@ -5,10 +5,7 @@ import { Navigation, EffectFade } from "swiper/modules";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "./ImageSlider.scss";
-import envlope from "../../assets/images/ww2envlope.png";
-import letter1 from "../../assets/images/ww2letter.jpeg";
-import letter2 from "../../assets/images/ww2letter2.jpeg";
-import letter3 from "../../assets/images/ww2letter3.jpeg";
+
 
 function ImageSlider({ images, envelope }) {
 
