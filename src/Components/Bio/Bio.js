@@ -10,7 +10,7 @@ function Bio() {
             <h2 className="bio__title"> Sgt. Thomas Patrick O'Connor</h2>
           </div>
           <div>
-            <img className="bio__headshot--mobile" src="./images/TPOC.png" />
+            <img className="bio__headshot--mobile" src="./images/TPOC.webp" />
           </div>
           <div className="bio__textbutton-div">
             <p className="bio__text">
