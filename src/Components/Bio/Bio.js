@@ -24,7 +24,7 @@ function Bio() {
             </Link>
             <Link className="link" to={"/moreartifacts"}>
              
-              <button className="bio__buttons-button"> More Artifacts</button>{" "}
+              <button className="bio__buttons-button">More Artifacts</button>{" "}
             </Link>
           </div>
         </div>
