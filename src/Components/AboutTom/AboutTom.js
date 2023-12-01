@@ -9,7 +9,7 @@ function AboutTom() {
           <div className="abouttom__image-div">
             <img
               className="abouttom__image-friends"
-              src="/images/tomwithfriend.png"
+              src="/images/tomwithfriend.webp"
             ></img>
             <p className="abouttom__image-text">
               SGT. O'Connor, pictured left with a friend. aprox 1944
@@ -38,7 +38,7 @@ function AboutTom() {
           <div className="abouttom__image-div">
             <img
               className="abouttom__image-closedcase"
-              src="/images/caseclosed.png"
+              src="/images/caseclosed.webp"
             ></img>
             <p className="abouttom__image-text">
               {" "}
@@ -48,7 +48,7 @@ function AboutTom() {
           <div className="abouttom__image-div">
             <img
               className="abouttom__image-opencase"
-              src="/images/caseopen.png"
+              src="/images/caseopen.webp"
             ></img>
             <p className="abouttom__image-text"> Inside the case</p>
           </div>
@@ -77,7 +77,7 @@ function AboutTom() {
           included 1,038 men killed in action.{" "}
         </p>
         <div className="abouttom__image-div">
-          <img className="abouttom__image" src="./images/map.png"></img>
+          <img className="abouttom__image" src="./images/map.webp"></img>
           <p className="abouttom__image-text">
             {" "}
             44th Infantry Division movements across Europe
@@ -98,14 +98,14 @@ function AboutTom() {
           we knew almost nothing about his service.
         </p>
         <div className="abouttom__image-div">
-          <img className="abouttom__image" src="./images/returnship1.png"></img>
+          <img className="abouttom__image" src="./images/returnship1.webp"></img>
           <p className="abouttom__image-text">
             {" "}
             The 44th division returned to great fanfare abord the Queen Mary
           </p>
         </div>
         <div className="abouttom__image-div">
-          <img className="abouttom__image" src="./images/returnship2.png"></img>
+          <img className="abouttom__image" src="./images/returnship2.webp"></img>
           <p className="abouttom__image-text">
             {" "}
             The men of the 44th after returning to New York
