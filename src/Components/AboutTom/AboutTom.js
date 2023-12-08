@@ -23,7 +23,7 @@ function AboutTom() {
               girlfriend at the time, during World War II. The letters were
               saved by my mother and kept in a dark colored suitcase in the
               basement of our house in Brooklyn for approximately 40 years.
-              During this time, the suitcase was “off-limits,” My siblings
+              During this time, the suitcase was “off-limits,” my siblings
               (Cathleen, Jimmy and Patricia) and I thought it contained letters,
               but it was never opened. The suitcase was moved to Maine in the
               mid 1990s and kept in the basement of my house for approximately
@@ -61,7 +61,7 @@ function AboutTom() {
           </div>
           <div className="sectiontwo__txt-div">
             <p className="sectiontwo__txt">
-              I obtained a copy of my fathers{" "}
+              I obtained a copy of my father's{" "}
               <a href="/images/dischargepaper.webp" target="_blank">
                 Military Personnel File{" "}
               </a>{" "}

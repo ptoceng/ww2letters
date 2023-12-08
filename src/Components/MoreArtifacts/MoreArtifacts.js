@@ -34,7 +34,7 @@ function MoreArtifacts() {
                 <img src="/images/grandmagrandpa.webp" />
               </a>
             </td>
-            <td>Cathleen and Tom on their Wedding Day</td>
+            <td>Catherine and Tom on their Wedding Day</td>
           </tr>
           <tr>
             <td>
