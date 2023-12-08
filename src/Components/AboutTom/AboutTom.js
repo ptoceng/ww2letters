@@ -19,20 +19,20 @@ function AboutTom() {
           </div>
           <div className="sectionone__txt-div">
             <p className="sectionone__txt">
-              The letters contained on this site letters were written by Thomas
-              P. O’Connor during his time in the Army during World War II. The
-              letters were saved by Catherine O’Connor and kept in a dark
-              colored suitcase for many years. The suitcase was in the basement
-              of the house we grow up in Brooklyn for approximately 40 years
-              from the mid-1950s until 1993. During this time the suitcase was
-              “off-limits,” it was known to contain letters but was never
-              opened. The suitcase was moved to Maine in 1994 and kept in the
-              basement of our house for about 28 years until 2021. The suitcase
-              was opened in 2021 and found that it contained approximately 60
-              letters. The letters span the period from 7/5/43 to 8/30/45.
-              During the period when the letters were written, Dad / Grandpa was
-              between 25 and 27 and Mom / Grandma was between 23 and 25 years
-              old.
+              The site contains letters my father wrote to my mother, his
+              girlfriend at the time, during World War II. The letters were
+              saved by my mother and kept in a dark colored suitcase in the
+              basement of our house in Brooklyn for approximately 40 years.
+              During this time, the suitcase was “off-limits,” My siblings
+              (Cathleen, Jimmy and Patricia) and I thought it contained letters,
+              but it was never opened. The suitcase was moved to Maine in the
+              mid 1990s and kept in the basement of my house for approximately
+              28 years until 2023. The letters span the period from 7/5/43 to
+              8/30/45. I transcribed the letters, scanned original copies and my
+              son Patrick developed this website which contains both original
+              and transcribed versions. The letters are in order by date and
+              were put into groups sorted by location. During this period, my
+              father was between 25 and 27 and my mother was between 23 and 25.
             </p>
           </div>
         </div>
@@ -61,25 +61,30 @@ function AboutTom() {
           </div>
           <div className="sectiontwo__txt-div">
             <p className="sectiontwo__txt">
-              I obtained a copy of his <a href="/images/dischargepaper.webp" target="_blank">Military Personnel File </a> and tracked the
-              movement of his division using on-line web sites. He joined the
-              army on June 16, 1941, and served until October 16, 1945. He was a
-              member of the 44th Infantry Division, 71st Regiment which was
-              initially comprised of men from the New York and New Jersey area.
-              The Division was trained in Fort Lewis, Washington and then went
-              to Louisiana and Kansas for predeployment training.
+              I obtained a copy of my fathers{" "}
+              <a href="/images/dischargepaper.webp" target="_blank">
+                Military Personnel File{" "}
+              </a>{" "}
+              and tracked the movement of his Division using on-line records. He
+              joined the army on June 16th, 1941, and served until October 16th,
+              1945. He was qualified as a combat infantryman and served as a
+              radio operator in the 44th Infantry Division, 71st Regiment which
+              was comprised of men from the New York and New Jersey areas. The
+              Division was trained in Ft. Lewis, Washington and then went to
+              Louisiana and Kansas for pre-deployment training.
               <br></br>
-              <br></br>The 44th division departed the United States via Boston
+              <br></br>The 44th Division departed the United States via Boston
               and arrived by ship in France on September 15, 1944. The 44th
-              Division marched across the width of France and entered Germany in
-              late March of 1945. Dad / Grandpa was evacuated to Metz, France in
-              April of 1945 to receive treatment for pneumonia and then returned
-              to Germany. The Regiment was in Germany for approximately 33 days
-              and then entered Austria for 4 days. The Division encountered
-              enemy troops and was involved in numerous battles with German
-              forces throughout this period. The total repotted battle
-              casualties of the 44th Division was 5,655 which included 1,038 men
-              killed in action.
+              Division marched across France and entered Germany in late March
+              of 1945. While in Germany he was evacuated to Metz, France in
+              April of that year to receive treatment for pneumonia and then
+              returned to Germany. The Division was in Germany for approximately
+              33 days, entered Austria for 4 days and then returned to France.
+              The map on this website shows the movement of his Division in
+              Europe during this period. The Division encountered enemy troops
+              and was involved in numerous battles throughout this period. The
+              total battle casualties of the 44th Division was 5,655 which
+              included 1,038 men killed in action.
             </p>
             <p className="sectiontwo__txt-dsk">
               The Division returned to France and then the United States on the
@@ -109,19 +114,11 @@ function AboutTom() {
           </div>
           <div className="sectionthree__txt-div">
             <p className="sectionthree__txt">
-            The Division returned to France and then the United States on the
-              Queen Elizabeth cruise ship which entered New York harbor on July
-              21st, 1945 with over 14,000 men. He was discharged from the Army
-              on October 16, 1945, with the rank of Sergeant  Technician 4th
-              Grade. The letters dated from
-              September 15, 1944 to May 4, 1945 were written while the army was
-              in the field and were censored prior to delivery. The dates given
-              in the text of the letters are different than the postmark dates
-              on the envelopes. Dad / Grandpa almost never talked about the war
-              or his service. He said he was in France, that he was involved in
-              the Battle of the Bulge, and he came back to the United States on
-              the Queen Elizabeth but besides that we knew almost nothing about
-              his service.
+              The Division returned to the United States on the Queen Elizabeth
+              and entered New York harbor on July 21st, 1945 (NY Times article
+              in More Artifacts Section). He was then assigned to Ft. Chaffee,
+              Ark where he served until his release from Army on Oct. 16th,
+              1945.
             </p>
           </div>
         </div>
