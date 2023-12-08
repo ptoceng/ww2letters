@@ -32,6 +32,7 @@ function LettersPage() {
         <Link to={"/"}>
           <h4 className="returnhome__text">Return to Home Page</h4>
         </Link>
+        <h3 className="instructions">Click on the blue arrow icons on the images to view the pages of the original letters.</h3>
       </div>
       <div className="title__div">
         <h2 className="title__text">{title}</h2>
