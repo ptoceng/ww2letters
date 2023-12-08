@@ -87,19 +87,11 @@ function AboutTom() {
               included 1,038 men killed in action.
             </p>
             <p className="sectiontwo__txt-dsk">
-              The Division returned to France and then the United States on the
-              Queen Elizabeth cruise ship which entered New York harbor on July
-              21st, 1945 with over 14,000 men. He was discharged from the Army
-              on October 16, 1945, with the rank of Sergeant (Technician 4th
-              Grade, discharge certificate is below). The letters dated from
-              September 15, 1944 to May 4, 1945 were written while the army was
-              in the field and were censored prior to delivery. The dates given
-              in the text of the letters are different than the postmark dates
-              on the envelopes. Dad / Grandpa almost never talked about the war
-              or his service. He said he was in France, that he was involved in
-              the Battle of the Bulge, and he came back to the United States on
-              the Queen Elizabeth but besides that we knew almost nothing about
-              his service.
+            The Division returned to the United States on the Queen Elizabeth
+              and entered New York harbor on July 21st, 1945 (NY Times article
+              in More Artifacts Section). He was then assigned to Ft. Chaffee,
+              Ark where he served until his release from Army on Oct. 16th,
+              1945.
             </p>
           </div>
         </div>
